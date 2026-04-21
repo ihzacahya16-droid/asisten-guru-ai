@@ -24,7 +24,7 @@ export default function Home() {
 
   const tabs = [
     { id: "rekap", icon: <LayoutDashboard size={18} />, label: "Dashboard" },
-    { id: "rpp", icon: <FileText size={18} />, label: "Modul Ajar" },
+    { id: "modul", icon: <FileText size={18} />, label: "Modul Ajar" }, // <-- DIPERBAIKI DARI "rpp" MENJADI "modul"
     { id: "silabus", icon: <Route size={18} />, label: "Silabus / ATP" },
     { id: "promes", icon: <CalendarDays size={18} />, label: "Prota / Promes" },
     { id: "soal", icon: <Target size={18} />, label: "Bank Soal" },
