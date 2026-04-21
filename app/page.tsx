@@ -130,7 +130,7 @@ export default function Home() {
         <div className="p-10 max-w-7xl mx-auto w-full overflow-y-auto">
           <div key={activeTab} className="animate-in fade-in slide-in-from-bottom-3 duration-500">
             {activeTab === "rekap" && <RekapDokumen />}
-            {activeTab === "modul" && <ModulAjar namaGuru="Bpk/Ibu Guru" namaSekolah="SDIT Yaa Bunayya" />}
+            {activeTab === "modul" && <ModulAjar namaGuru={namaGuru} namaSekolah={namaSekolah} />}
             {activeTab === "silabus" && <Silabus />}
             {activeTab === "soal" && <SoalUjian />}
             {activeTab === "icebreaking" && <IceBreaking />}
